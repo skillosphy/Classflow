@@ -18,7 +18,7 @@ Classflow simplifies student life by organizing all your coursework into one cle
 ## Quick Start Guide
 
 ### 1. Download & Launch
-Download **`Classflow.exe`** from the [Releases](https://github.com/skillosphy/Classflow/releases) page and launch the application.
+-
 
 ### 2. Choose Your Storage Folder
 When prompted, select the folder on your computer where you want Classflow to save your course files and assignments.
