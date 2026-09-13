@@ -18,8 +18,8 @@ Classflow streamlines your academic workflow by consolidating all your courses i
 
 ## Quick Start Guide
 
-### 1. Download & Install
-Download **`Classflow_Setup.exe`** from the [Releases](https://github.com/skillosphy/Classflow/releases) page and run the installer.
+### 1. Download & Launch
+Download **`Classflow.exe`** from the [Releases](https://github.com/skillosphy/Classflow/releases) page and launch the application.
 
 ### 2. Choose Your Storage Folder
 On first launch, Classflow will prompt you to select a local folder where your coursework and lecture files should be stored. Classflow automatically structures this folder by course name with dedicated `Assignments` and `Materials` subdirectories. You can change this location at any time in **Settings**.
