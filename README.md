@@ -75,6 +75,21 @@ All materials and assignments are saved inside your chosen download folder. Clas
 ### What happens when I close the app window?
 Closing the window minimizes Classflow to the Windows System Tray. Background sync continues to run quietly on your chosen interval. Right-click the tray icon and select **Quit** to completely exit the application.
 
+### Why is Classflow flagged as "unsafe" or blocked by Windows SmartScreen?
+Classflow is an educational utility and does not carry a signed certificate. Windows SmartScreen or your antivirus might show a *"Windows protected your PC"* or untrusted warning on first install or launch.
+To proceed:
+1. Click **More info** on the Windows SmartScreen pop-up.
+2. Click **Run anyway**.
+
+### Why does Google say "Google hasn't verified this app" during Google Auth?
+When authenticating your Google account to sync Google Classroom or Google Calendar, Google may display a prompt stating *"Google hasn't verified this app"*. This is standard for student and developer apps that have not gone through Google's review program.
+To continue:
+1. Click **Advanced** (or *Show Advanced*) at the bottom-left of the Google auth prompt.
+2. Click **Go to Classflow (unsafe)** to grant access.
+
+### What should I do if the app crashes or closes unexpectedly?
+If Classflow crashes or closes abruptly, simply **relaunch the application**. Classflow continuously saves your settings, connected courses, and sync history to disk, so relaunching will safely restore your state and resume sync operations.
+
 ---
 
 ## Author & License
