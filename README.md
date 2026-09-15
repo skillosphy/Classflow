@@ -2,87 +2,82 @@
 
 > **Your automated desktop hub for Microsoft Teams, Google Classroom & Discord.**
 
-Classflow streamlines your academic workflow by consolidating all your courses into one clean dashboard. It automatically tracks assignments, downloads lecture slides and course materials directly to organized folders on your computer.
+Classflow streamlines your academic workflow by consolidating all your courses into one clean, modern dashboard. It automatically tracks assignment deadlines, downloads lecture slides and course materials directly to organized folders on your system.
 
 ---
 
 ## Highlights
 
-* **Unified 3-Column Dashboard:** View enrolled courses, active assignments, and recently downloaded lecture materials side by side.
-* **Independent On-Demand & Background Sync:** Trigger assignment or lecture material syncs manually or let background automation run quietly on the interval that you set.
-* **Automatic File Downloads:** Lecture slides, PDFs, documents, assignment attachments are automatically saved into neat course subfolders.
-* **Google Calendar Deadline Sync:** Assignment due dates are automatically scheduled to your primary Google Calendar or any custom calendar you configure.
-* **Cross-Platform Class Sources:** Seamlessly connects Microsoft Teams classes, Google Classroom courses, and Discord servers.
+* **Unified 3-Column Dashboard:** View connected courses, pending assignments, and course materials side by side on a spacious widescreen dashboard.
+* **Independent Background & On-Demand Sync:** Refresh assignments or course materials instantly with manual sync, or let background automation run quietly on intervals you configure.
+* **Automatic File Downloads:** Lecture slides, PDFs, code files, and assignment attachments are automatically saved into structured course subfolders.
+* **Google Calendar Deadline Sync:** Automatically sync assignment deadlines to Google Calendar to your primary or any custom calendar you configure.
+* **Cross-Platform Integration:** Seamlessly aggregates courses across Microsoft Teams, Google Classroom, and Discord servers.
+* **Instant File Access:** Click any assignmentor material card to open the document directly where it has been saved.
 
 ---
 
 ## Quick Start Guide
 
 ### 1. Download & Launch
-Download **`Classflow_Setup.exe`** from the [Releases](https://github.com/skillosphy/Classflow/releases) page and install the application through the installer.
+Download **`Classflow_Setup.exe`** from the [Releases](https://github.com/skillosphy/Classflow/releases) page and run the Windows installer.
 
 ### 2. Choose Your Storage Folder
-On first launch, Classflow will prompt you to select a local folder where your coursework and lecture files should be stored. Classflow automatically structures this folder by course name with dedicated `Assignments` and `Materials` subdirectories. You can change this location at any time in **Settings**.
+On first launch, Classflow will prompt you to select a folder on your computer where course materials and assignments should be saved. Classflow automatically organizes files into neat course subdirectories. You can change this location at any time in **Settings**.
 
 ### 3. Connect Your Classes
-Open **Settings** (or click **Connect Classes** on the dashboard banner) and add your classes:
-* **Microsoft Teams:** Make sure the Microsoft Teams desktop app is open, then click **Scan Teams**. Classflow will automatically discover your enrolled teams.
-* **Google Classroom:** Click **Scan Classroom** to sign in securely via your web browser with your Google account and add your classrooms.
-* **Discord:** Click **Add Discord**, paste your course server ID and select the channels you want to monitor for study materials or assignments or both.
+Open **Settings** (or click **Manage** under *Connected Classes*):
+* **Microsoft Teams:** Ensure the Microsoft Teams desktop app is open, then click **Scan Teams**. Classflow will automatically discover your enrolled teams and SharePoint class sites.
+* **Google Classroom:** Click **Scan Classroom** to sign in securely via your browser with your Google account and select your courses.
+* **Discord:** Click **Add Discord**, paste your course Server ID, and select which channels you want Classflow to monitor (for materials, assignments, or both).
 
 ### 4. Sync & Track
-Click the sync icon at the top of the **Pending Assignments** or **Recently Downloaded Materials** columns for an instant refresh.
+Click the sync icon at the top of the **Pending Assignments** or **Course Materials** columns for an instant update, or let background auto-sync handle everything quietly.
 
 ---
 
 ## Dashboard Overview
 
-Classflow organizes your workflow into three spacious studio columns:
+Classflow organizes your workflow into three columns:
 
-1. **Courses (Left Column):** Displays all your connected classes. Clicking any course card immediately opens that course's folder.
-2. **Pending Assignments:** Displays active assignments ordered by due date with color coded urgency indicators. Clicking an assignment opens its attached files. 
-3. **Recently Downloaded Materials:** Shows a stream of newly downloaded lecture slides, PDFs, and handouts. Clicking a material opens the file directly.
+1. **Courses:** Displays all your connected classes across Teams, Classroom, and Discord with color-coded bars. Clicking a course card immediately opens that course's folder on your system.
+2. **Pending Assignments:** Displays upcoming active assignments ordered by due date with color-coded urgency indicators (green for 3+ days, yellow for 1–2 days, red for today). Clicking an assignment card opens its attached files directly.
+3. **Course Materials:** Streams newly downloaded lecture slides, readings, and handouts. The feed is sectioned into **Today** and **Previous Downloads**, accompanied by a count `(X new • Y total)`. Clicking any material opens it immediately.
 
 ---
 
 ## Settings & Automation
 
 * **Startup & Sync:**
-  * **Run on Startup:** Launch Classflow minimized to the Windows system tray when you log in.
+  * **Run on Startup:** Enabled by default. Automatically adds Classflow to start when you boot your system. Can be toggled on/off at any time.
   * **Assignments Auto-Sync Interval:** Configurable to **6 hours**, **12 hours**, or **Daily** (default: **Daily**).
-  * **Lecture Materials Auto-Sync Interval:** Configurable to **6 hours**, **12 hours**, or **Daily** (default: **Daily**).
-* **Google Integration:**
-  * **Google Account Authentication:** Connect or disconnect your Google Classroom and Calendar credentials.
-  * **Google Calendar ID:** Sync deadlines to your default personal calendar (`primary`) or specify a dedicated calendar ID (click the **?** button for guidance on locating your Calendar ID).
-* **Manage Class Connections:** Connect, disconnect or view classes across platforms at any time.
+  * **Course Materials Auto-Sync Interval:** Configurable to **6 hours**, **12 hours**, or **Daily** (default: **Daily**).
+* **Connected Classes:**
+  * **Manage Class Connections:** View, configure, or disconnect classes across platforms at any time.
 
 ---
 
 ## Frequently Asked Questions (FAQ)
 
-### How do I connect a Discord course?
-1. In **Settings**, click **Manage** under *Connected Classes* and choose **Add Discord**.
-2. Paste the Server ID of your course server.
-3. If the Classflow bot is not yet present, click **Invite Bot to Server**.
-4. Select the channels you want Classflow to monitor (such as #assignments, #lecture-materials) and click **Connect**.
-
 ### Does Microsoft Teams need to be open to connect?
-Yes. Have the Microsoft Teams desktop app open when connecting classes so Classflow can detect your teams. 
+Yes, have the Microsoft Teams desktop app open when initially scanning and connecting classes so Classflow can capture your active school credentials. Subsequent syncs can run headlessly via cached credentials.
 
 ### Where are my files stored?
-All materials and assignments are saved inside your chosen download folder. Classflow creates neat subfolders for each course (e.g., `Classflow/Operating Systems/Materials` and `Classflow/Operating Systems/Assignments`).
+All materials and assignments are saved directly inside your configured download directory. Classflow automatically manages subdirectories for each course:
+* `<Download Folder>/<Course Name>/Materials/`
+* `<Download Folder>/<Course Name>/Assignments/`
 
 ### What happens when I close the app window?
-Closing the window minimizes Classflow to the Windows System Tray. Background sync continues to run quietly on your chosen interval. Right-click the tray icon and select **Quit** to completely exit the application.
+Closing the window minimizes Classflow to the Windows System Tray. Background auto-sync continues to run on your chosen schedule. Right-click the tray icon and click **Quit** to close the application completely.
 
-### Why is Classflow flagged as "unsafe" or blocked by Windows SmartScreen?
-Classflow is an educational utility and does not carry a signed certificate. Windows SmartScreen or your antivirus might show a *"Windows protected your PC"* or untrusted warning on first install or launch.
+### Why does Windows SmartScreen show a warning?
+Classflow is an independent educational tool without an expensive corporate code-signing certificate. Windows SmartScreen may show a *"Windows protected your PC"* prompt on first launch.
 To proceed:
-1. Click **More info** on the Windows SmartScreen pop-up.
+1. Click **More info**.
 2. Click **Run anyway**.
 
 ### Why does Google say "Google hasn't verified this app" during Google Auth?
-When authenticating your Google account to sync Google Classroom or Google Calendar, Google may display a prompt stating *"Google hasn't verified this app"*. This is standard for student and developer apps that have not gone through Google's review program.
+When authenticating your Google account to sync Google Classroom classes and deadlines to Google Calendar, Google may display a prompt stating *"Google hasn't verified this app"*. This is standard for apps that have not gone through Google's review program.
 To continue:
 1. Click **Advanced** (or *Show Advanced*) at the bottom-left of the Google auth prompt.
 2. Click **Go to Classflow (unsafe)** to grant access.
