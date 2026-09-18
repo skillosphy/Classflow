@@ -13,7 +13,7 @@ Classflow streamlines your academic workflow by consolidating all your courses i
 * **Automatic File Downloads:** Lecture slides, PDFs, code files, and assignment attachments are automatically saved into structured course subfolders.
 * **Google Calendar Deadline Sync:** Automatically sync assignment deadlines to Google Calendar to your primary or any custom calendar you configure.
 * **Cross-Platform Integration:** Seamlessly aggregates courses across Microsoft Teams, Google Classroom, and Discord servers.
-* **Instant File Access:** Click any assignmentor material card to open the document directly where it has been saved.
+* **Instant File Access:** Click any assignment or material to open the document directly where it has been saved.
 
 ---
 
