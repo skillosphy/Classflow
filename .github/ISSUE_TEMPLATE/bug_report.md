@@ -23,8 +23,8 @@ If applicable, attach screenshots or recordings to illustrate the issue.
 
 ### Environment Information
 - OS Version: Windows 10 / Windows 11 (Build version)
-- Classflow Version: v1.0.0
-- Connected Services: Microsoft Teams / Google Classroom
+- Classflow Version: v1.1.0-beta
+- Connected Services: Microsoft Teams / Google Classroom / Discord 
 
 ### Additional Context
 Add any relevant logs or supplementary context here.
